@@ -1,0 +1,22 @@
+.container img {
+  width: 116px;
+  height: 79px;
+}
+
+.container {
+  flex-direction: row;
+    background: hsla(0,0%,77%,.23);
+  justify-content: space-around;
+  border-left: 1px solid black;
+  display: flex;
+}
+
+.container h4 {
+  border-bottom: 1px solid black;
+}
+
+.dayo {
+      background: #717183;
+    padding: 20px;
+}
+}
