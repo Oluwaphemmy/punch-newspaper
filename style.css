@@ -96,6 +96,8 @@ background: rgba(60,60,60,.25);
     flex-direction: row;
     margin: 37px;
     justify-content: space-evenly;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
   }
 
   .news img {
