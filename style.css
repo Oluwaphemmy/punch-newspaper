@@ -20,9 +20,13 @@
   transition: 0.5s;
   background: black;
   height: 100px;
+      margin-top: 33px;
 }
 body {
   max-width: 100%;
+}
+.ff{
+  margin-top: 14px;
 }
 
 .header .navigation {
