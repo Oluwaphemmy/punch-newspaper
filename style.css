@@ -7,112 +7,132 @@
   box-sizing: border-box;
 }
 
-
-
-  .header {
-    position: relative;
-    top: -13pxpx;
-    left: 0;
-    width: 100%;
-    padding: 40px 100px;
-    z-index: 10000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.5s;
-    background: black;
-    height: 100px;
-  }
-  body {
-    max-width: 100%;
-  }
-
-  .header .navigation {
-    position: relative;
-    display: flex;
-  }
-
-  .header .navigation li {
-    margin-left: 30px;
-    list-style: none;
-  }
-
-  .header .navigation li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 300;
-    font-size: 24px;
-    transition: 0.2px;
-  }
-  .header .navigation li a:hover {
-    color: red;
-    letter-spacing: 2px;
-  }
-
-  .header .logo {
-    width: 200px;
-  }
-
- .vid {
-    background: #000;
-    color: #fff;
-    height: 35px;
-    border-radius: 35px;
-    width: 150px;
-    font-weight: 600;
-    line-height: 180px;
-    border: 1px solid black;
-    padding: 1em;
-    color: white;
-    font-size: 14px;
-    justify-content: center;
-    line-height: 18px;
-}.ff .s-btn{
-        width: 38px;
-    margin-left: -45px;
-  
+.header {
+  position: relative;
+  top: -13pxpx;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  background: black;
+  height: 100px;
 }
-  
+body {
+  max-width: 100%;
+}
 
-  .top-search{
-        font-size: 16px;
-    border-radius: 36px;
-    width: 300px;
-    height: 35px;
-    padding: 1em;
-    color: #000;
-background: rgba(60,60,60,.25);
+.header .navigation {
+  position: relative;
+  display: flex;
+}
 
-  }
+.header .navigation li {
+  margin-left: 30px;
+  list-style: none;
+}
 
-  .vid{
-   
-  }
+.header .navigation li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 24px;
+  transition: 0.2px;
+}
+.header .navigation li a:hover {
+  color: red;
+  letter-spacing: 2px;
+}
 
-  /*news*/
+.header .logo {
+  width: 200px;
+}
 
-  .news {
-    display: flex;
-    flex-direction: row;
-    margin: 37px;
-    justify-content: space-evenly;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-  }
+.vid {
+  background: #000;
+  color: #fff;
+  height: 35px;
+  border-radius: 35px;
+  width: 150px;
+  font-weight: 600;
+  line-height: 180px;
+  border: 1px solid black;
+  padding: 1em;
+  color: white;
+  font-size: 14px;
+  justify-content: center;
+  line-height: 18px;
+}
+.ff .s-btn {
+  width: 38px;
+  margin-left: -45px;
+}
 
-  .news img {
-    width: 688px;
-    height: 291px;
-    margin-left: 1px;
-  }
+.top-search {
+  font-size: 16px;
+  border-radius: 36px;
+  width: 300px;
+  height: 35px;
+  padding: 1em;
+  color: #000;
+  background: rgba(60, 60, 60, 0.25);
+}
 
-  .news ul li {
-    text-decoration: none;
+.vid {
+}
+
+/*news*/
+
+.news {
+  display: flex;
+  flex-direction: row;
+  margin: 37px;
+  justify-content: space-evenly;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.news img {
+  width: 90%;
+    height: 345px;
+    margin-left: 37px;
+    object-position: top;
+    object-fit: cover;
+} 
+.asuu{
+    background: #e2e2e2;
+    margin: 35px;
+    padding: 12px;
+    margin-top: -4px;
+    margin-right: 50px;
+    padding-bottom: 2pc;
+    line-height: 39px;
+}
+.asuu p{
+  color: black;
+}
+
+.news ul li {
+  text-decoration: none;
+  color: red;
+  font-style: italic;
+  text-decoration: none;}
+
+  .tn li::marker {
     color: red;
-    font-style: italic;
-    text-decoration: none;
+    list-style-type: square;
   }
 
+  .tn li{
+    list-style-type: square;
+  }
+
+  .hr {
+    margin-top: 16px;
+  }
   .news h6 a {
     font-size: 1.5em;
     font-style: normal;
@@ -150,7 +170,7 @@ background: rgba(60,60,60,.25);
     display: flex;
     flex-direction: row;
     margin: 37px;
-    background: hsla(0, 0%, 77%, 0.6);
+    background: hsla(0, 0%, 77%, 0.1);
     align-items: center;
     justify-content: center;
     height: 236px;
@@ -186,12 +206,13 @@ background: rgba(60,60,60,.25);
     font-family: Open Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.1em;
+    font-size:18px;
     line-height: 1.3em;
     text-decoration: none;
   }
   .videos h2 a {
-    text-decoration: none;
+      text-decoration: none;
+    padding: 8px;
   }
 
   .videos div {
@@ -215,7 +236,7 @@ background: rgba(60,60,60,.25);
   .metro {
     display: flex;
     flex-direction: row;
-    background: hsla(0, 0%, 77%, 0.6);
+    background: hsla(0, 0%, 77%, 0.1);
     margin: 37px;
     height: 283px;
     align-items: center;
@@ -226,8 +247,10 @@ background: rgba(60,60,60,.25);
   }
 
   .metro h2 a {
-    text-decoration: none;
+ text-decoration: none;
     line-height: 1.2;
+    font-size: 15px;
+    margin-left: 17px;
   }
 
   .metro h3 {
@@ -265,7 +288,7 @@ background: rgba(60,60,60,.25);
   .business {
     display: flex;
     flex-direction: row;
-    background: hsla(0, 0%, 77%, 0.6);
+    background: hsla(0, 0%, 77%, 0.1);
     margin: 37px;
     height: 283px;
     align-items: center;
@@ -276,9 +299,10 @@ background: rgba(60,60,60,.25);
   }
 
   .business h2 a {
-    text-decoration: none;
-    line-height: 1.2;
-    font-size: 19px;
+        text-decoration: none;
+    line-height: 2.2;
+    font-size: 15px;
+    margin-left: 16px;
   }
 
   .business h3 {
@@ -427,13 +451,13 @@ footer img {
 .button {
   margin-left: 50%;
   margin-bottom: 20px;
-  background: red;
+      background: rgba(255,0,0,.07);
   padding: 12px;
   border-radius: 20px;
-  color: white;
+  color: red;
   text-decoration: none;
   font-size: 20px;
-  font-weight: bolder;
+
   transition: 0.2s;
 }
 
@@ -443,10 +467,10 @@ footer img {
 .more {
   font-size: 15px;
   padding: 5px;
-  background-color: white;
+    background: rgba(255,0,0,.07);
   color: red;
   font-style: bold;
-  font-weight: bold;
+ 
   border-radius: 10px;
   margin-left: 54px;
   margin-top: 12px;
@@ -461,8 +485,8 @@ footer img {
     flex-direction: column-reverse;
   }
   .news img {
-    width: 400px;
-    height: 400px;
+  width: 317px;
+    height: 398px;
   }
   .img-text {
     font-size: 21px;
@@ -555,10 +579,17 @@ footer img {
   .header .logo {
     width: 95px;
     margin-left: -85px;
-  }.ff{
+  }
+  .ff {
     margin: 7px;
-  }.top-search{
+  }
+  .top-search {
     margin-left: -205px;
     width: 208px;
   }
+}
+
+
+.ayo{
+ 
 }
